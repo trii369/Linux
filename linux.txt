@@ -1,0 +1,43 @@
+sudo - SuperUser Do
+pwd : to knw which directory you are in, doneted by a forward slash ( / )
+           **syntax : pwd**
+mkdir : to create a folder or a directory.
+      **syntax : mkdir <dir-name>
+cd : to go to a specific directory   
+      **syntax : cd <dir-name>
+
+sudo -i  : change to root user ( sudo su - )
+sudo su : root user with specific user also 
+who  : to know user name 
+whoami : to know which user 
+uname :  display linux systerm information
+uname -r : display kernel release information
+hostname :  shows system host name 
+hostname -i : display ip adress of the system 
+date : display current system date and time 
+whatis : use to help about the command 
+cat /proc/cpuinfo :  more info about server CPU
+cat /proc/meminfo : info about memory
+ cat /etc/os-release : info about the os
+lshw : to know system hardware
+isblk : to know the block devices
+touch : to create an empty file 
+yum install package to install packages
+ls to check flies { ls means list the files}
+cat /ect/passwd to display users list { important )
+useradd <name> to add users 
+cat /ect/group to display group list { important )
+id 
+wc to knw the word count
+grep use to find words
+gpg -c <file> to encrypt file with password
+gpg -d <file> to decrypt file 
+tree to see the subfolder
+ln -s <subfolder/subfoldr/file> <linkname> to create link 
+wget to download software from internet
+yum install <content> to install content
+hostnamectl set-hostname <name> to add host
+hostname to check hostname
+su - <name> to change root user
+ chmod -R <permissions> <dirrectoryname> to give permisions to dir along with the files in it
+
